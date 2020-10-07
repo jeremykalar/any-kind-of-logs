@@ -1,0 +1,22 @@
+[10:17:47] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /pt say test
+[10:17:51] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /pt list
+[10:23:46] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3895ms behind, skipping 77 tick(s)
+[10:24:13] [pool-3-thread-133/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]Ground items will be cleared in 60 seconds.
+[10:24:43] [pool-3-thread-125/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]Ground items will be cleared in 30 seconds.
+[10:25:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]0 items have been cleared.
+[10:26:45] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /pt 
+[10:26:49] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /pt help
+[10:27:06] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /lp verbose command
+[10:27:20] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /lp verbose command on jeremykalar
+[10:27:25] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /lp verbose command jeremykalar
+[10:27:28] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /lp verbose command jeremykalar on
+[10:27:28] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /on 
+[10:27:36] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /pt 
+[10:27:45] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /lp verbose jeremykalar on
+[10:27:50] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /lp verbose player jeremykalar on
+[10:27:56] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /lp verbose on jeremykalar
+[10:27:58] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /pt 
+[10:28:02] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /lp verbose off
+[10:28:11] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /lp verbose on jeremykalar
+[10:28:21] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /pt pokespawn mareep
+[10:28:29] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /lp verbose off
