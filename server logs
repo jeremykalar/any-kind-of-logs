@@ -1,3 +1,1048 @@
+[10:13:56] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[10:13:56] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[10:13:56] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[10:13:56] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_261, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_261
+[10:13:56] [main/INFO] [FML]: Searching D:\Servers\server 7\.\mods for mods
+[10:13:57] [main/WARN] [FML]: The coremod ShopCore (org.pokecentral.shopkeeperfix.ShopCore) is not signed!
+[10:13:57] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2838-7.3.0.jar
+[10:13:57] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from TileEntityBell-mixin-1.3.2.jar
+[10:13:57] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:13:57] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[10:13:57] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/D:/Servers/server%207/./mods/spongeforge-1.12.2-2838-7.3.0.jar Service=LaunchWrapper Env=SERVER
+[10:13:57] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
+[10:13:57] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[10:13:57] [main/WARN] [FML]: The coremod MixinCoreMod (com.ferris.mixins.tileentitybellfix.MixinCoreMod) is not signed!
+[10:13:58] [main/INFO] [FML]: Trying to load pixelmon...
+[10:13:59] [main/INFO] [FML]: Loaded!
+[10:13:59] [main/INFO] [FML]: Attempting to setup TileEntityBell mixins...
+[10:13:59] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[10:13:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:13:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:13:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:13:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:14:00] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[10:14:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:14:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:14:00] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[10:14:00] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@57ce634f
+[10:14:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:14:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:14:01] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[10:14:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:14:01] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[10:14:03] [main/WARN] [mixin]: @Mixin target net/minecraft/block/state/BlockStateContainer$StateImplementation is public in mixins.common.api.json:mcp.block.state.StateImplementationMixin_API and should be specified in value
+[10:14:07] [main/WARN] [mixin]: @Mixin target net/minecraft/server/management/PlayerProfileCache$ProfileEntry is public in mixins.common.core.json:server.management.PlayerProfileCache_ProfileEntryAccessor and should be specified in value
+[10:14:10] [main/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method func_189509_E in mixins.common.core.json:world.WorldMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[10:14:12] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[10:14:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[10:14:20] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[10:14:20] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[10:14:20] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[10:14:21] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[10:14:21] [Server thread/INFO] [Sponge]: Found mcmod.info at jar:file:/D:/Servers/server%207/./mods/spongeforge-1.12.2-2838-7.3.0.jar!/mcmod.info
+[10:14:21] [Server thread/INFO] [Sponge]: Creating injector in stage 'PRODUCTION'
+[10:14:28] [Server thread/INFO] [FML]: Searching D:\Servers\server 7\.\mods for mods
+[10:14:28] [Server thread/WARN] [Sponge]: Plugin 'catclearlag' seems to be missing a valid mcmod.info metadata file. This is not a problem when testing plugins, however it is recommended to include one in public plugins.
+Please see https://docs.spongepowered.org/master/en/plugin/plugin-meta.html for details.
+[10:14:31] [Server thread/INFO] [FML]: Forge Mod Loader has identified 46 mods to load
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for spongeapi: assets/spongeapi/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for spongeforge: assets/spongeforge/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for activetime: assets/activetime/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for adamantineshield: assets/adamantineshield/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for agp: assets/agp/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for aurionvotelistener: assets/aurionvotelistener/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for autobroadcaster: assets/autobroadcaster/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for catclearlag: assets/catclearlag/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for coloranvil: assets/coloranvil/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for pixelmoneconomybridge: assets/pixelmoneconomybridge/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for economylite: assets/economylite/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for enjin-minecraft-plugin: assets/enjin-minecraft-plugin/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for evenmorepixelmoncommands: assets/evenmorepixelmoncommands/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for flashplus: assets/flashplus/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for flashspec: assets/flashspec/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for griefdefender: assets/griefdefender/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for holograms: assets/holograms/lang/en_us.lang
+[10:14:31] [Server thread/WARN] [FML]: Missing English translation for huskycrates: assets/huskycrates/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for huskyui: assets/huskyui/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for keepinventorysponge: assets/keepinventorysponge/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for legendaryplus: assets/legendaryplus/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for luckperms: assets/luckperms/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for magibridge: assets/magibridge/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for mmcreboot: assets/mmcreboot/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for nucleus: assets/nucleus/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for nuvotifier: assets/nuvotifier/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for pixelextras: assets/pixelextras/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for pixelgenocide: assets/pixelgenocide/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for pixelhunt: assets/pixelhunt/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for pixelmon-wiki-gui: assets/pixelmon-wiki-gui/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for pixelmonbroadcasts: assets/pixelmonbroadcasts/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for placeholderapi: assets/placeholderapi/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for pokebuilder: assets/pokebuilder/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for simplecommands: assets/simplecommands/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for spark: assets/spark/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for tabmanager: assets/tabmanager/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for trainercommands: assets/trainercommands/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for virtualtool: assets/virtualtool/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for wondertrade: assets/wondertrade/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [FML]: Missing English translation for worldedit: assets/worldedit/lang/en_us.lang
+[10:14:32] [Server thread/WARN] [Sponge]: The mod autobroadcaster was designed for spongeapi 5.0.0 but version 7.3-7127e0882 is in use. It may not work properly.
+[10:14:32] [Server thread/WARN] [Sponge]: The mod pixelgenocide was designed for pixelmon 7.2.2 but version 8.1.2 is in use. It may not work properly.
+[10:14:32] [Server thread/WARN] [Sponge]: The mod pixelgenocide was designed for pixelmon 7.2.2 but version 8.1.2 is in use. It may not work properly.
+[10:14:32] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, activetime, adamantineshield, agp, aurionvotelistener, autobroadcaster, catclearlag, coloranvil, pixelmoneconomybridge, economylite, enjin-minecraft-plugin, evenmorepixelmoncommands, flashplus, flashspec, griefdefender, holograms, huskycrates, huskyui, keepinventorysponge, legendaryplus, luckperms, magibridge, mmcreboot, nucleus, nuvotifier, pixelextras, pixelgenocide, pixelhunt, pixelmon, pixelmon-wiki-gui, pixelmonbroadcasts, placeholderapi, pokebuilder, simplecommands, spark, tabmanager, trainercommands, virtualtool, wondertrade, worldedit] at CLIENT
+[10:14:32] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, spongeapi, sponge, spongeforge, activetime, adamantineshield, agp, aurionvotelistener, autobroadcaster, catclearlag, coloranvil, pixelmoneconomybridge, economylite, enjin-minecraft-plugin, evenmorepixelmoncommands, flashplus, flashspec, griefdefender, holograms, huskycrates, huskyui, keepinventorysponge, legendaryplus, luckperms, magibridge, mmcreboot, nucleus, nuvotifier, pixelextras, pixelgenocide, pixelhunt, pixelmon, pixelmon-wiki-gui, pixelmonbroadcasts, placeholderapi, pokebuilder, simplecommands, spark, tabmanager, trainercommands, virtualtool, wondertrade, worldedit] at SERVER
+[10:14:32] [Server thread/WARN] [Sponge]: There's no certificate fingerprint available
+[10:14:37] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[10:14:37] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[10:14:37] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[10:14:37] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[10:14:37] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[10:14:37] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Starting version check at https://files.minecraftforge.net/maven/org/spongepowered/spongeforge/promotions_slim.json
+[10:14:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Nucleus version 2.1.4, running on Sponge API 7.3-7127e0882.
+[10:14:38] [Forge Version Check/INFO] [forge.VersionCheck]: [spongeforge] Found status: OUTDATED Target: 7.1.2
+[10:14:38] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[10:14:38] [Server thread/INFO] [nucleus]: Nucleus is now starting. Entering pre-init phase.
+[10:14:38] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[10:14:38] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Starting version check at https://reforged.gg/forge/update.json
+[10:14:39] [Forge Version Check/INFO] [forge.VersionCheck]: [pixelmon] Found status: AHEAD Target: null
+[10:14:39] [Server thread/INFO] [nucleus]: Starting QuickStart Module Loader version 0.12.0 subsystem.
+[10:14:39] [Server thread/INFO] [nucleus]: Nucleus is now loading and enabling modules. This may take a few seconds.
+[10:14:40] [Server thread/INFO] [nucleus]: Starting phase: preenable
+[10:14:40] [Server thread/INFO] [nucleus]: Starting phase: config
+[10:14:40] [Server thread/INFO] [nucleus]: Starting phase: permissions
+[10:14:40] [Server thread/INFO] [nucleus]: Starting phase: reg
+[10:14:40] [Server thread/INFO] [nucleus]: Starting phase: services
+[10:14:41] [Server thread/INFO] [nucleus]: Starting phase: pre-tasks
+[10:14:41] [Server thread/WARN] [nucleus]: The Nucleus Warning module has been removed. Please use other plugins for warning support.
+[10:14:41] [Server thread/INFO] [nucleus]: Starting phase: enable
+[10:14:41] [Server thread/INFO] [nucleus]: Starting phase: command-discovery
+[10:14:44] [Server thread/INFO] [nucleus]: Starting phase: aliased-commands
+[10:14:44] [Server thread/INFO] [nucleus]: Starting phase: events
+[10:14:45] [Server thread/INFO] [nucleus]: Starting phase: runnables
+[10:14:45] [Server thread/INFO] [nucleus]: Starting phase: infoproviders
+[10:14:45] [Server thread/INFO] [nucleus]: Starting phase: enabletasks
+[10:14:45] [Server thread/INFO] [nucleus]: Starting phase: postenable
+[10:14:45] [Server thread/INFO] [nucleus]: Starting phase: tokens
+[10:14:45] [Server thread/INFO] [nucleus]: Starting phase: interceptors
+[10:14:45] [Server thread/INFO] [nucleus]: Starting phase: posttasks
+[10:14:46] [Server thread/INFO] [nucleus]: Nucleus has completed loading modules.
+[10:14:46] [Server thread/INFO] [nucleus]: Nucleus has completed server initialisation tasks. Waiting for game server to start to complete the final tasks.
+[10:14:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:         __    
+[10:14:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:   |    |__)   LuckPerms v5.1.86
+[10:14:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:   |___ |      Running on Sponge - SpongeForge
+[10:14:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[10:14:46] [Server thread/INFO] [luckperms]: Loading configuration...
+[10:14:48] [Server thread/INFO] [luckperms]: Loading storage provider... [H2]
+[10:14:52] [Server thread/INFO] [luckperms]: Loading internal permission managers...
+[10:14:52] [Server thread/INFO] [luckperms]: Registering PermissionService...
+[10:14:54] [Server thread/INFO] [luckperms]: Performing initial data load...
+[10:14:56] [Server thread/INFO] [luckperms]: Successfully enabled. (took 9983ms)
+[10:14:56] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+[10:14:57] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+[10:14:57] [Server thread/INFO] [adamantineshield]: AS database loaded successfully
+[10:14:57] [Server thread/INFO] [adamantineshield]: Registering event listeners
+[10:14:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[10:14:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ======== E V E N  M O R E  P I X E L M O N  C O M M A N D S ========
+[10:14:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: --> Loading and validating EMPC settings...
+[10:14:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: --> Registering commands and known aliases with Sponge...
+[10:14:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: --> Loaded a bunch of commands, see below.
+[10:14:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:     /checkevs, /checkstats (/gs), /checktypes (/type), 
+[10:14:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:     /empc, /fixgenders, /partyhatch, 
+[10:14:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:     /partyheal, /randomtm, /resetdex, 
+[10:14:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:     /resetevs, /showstats (/show), /spawndex, 
+[10:14:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]:     /switchgender (/bend), /timedhatch, /timedheal
+[10:14:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: --> Pre-init completed. All systems nominal.
+[10:14:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ====================================================================
+[10:14:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[10:14:58] [Server thread/ERROR] [placeholderapi]: Could not load the messages file!
+[10:14:58] [Server thread/WARN] [Sponge]: /*************************************************************************************************************************************************************/
+[10:14:58] [Server thread/WARN] [Sponge]: /*                                                         Could not pass  FMLPreInitializationEvent                                                         */
+[10:14:58] [Server thread/WARN] [Sponge]: /*************************************************************************************************************************************************************/
+[10:14:58] [Server thread/WARN] [Sponge]: /* Could not pass the event FMLPreInitializationEvent to an Event Listener!                                                                                  */
+[10:14:58] [Server thread/WARN] [Sponge]: /*                                                                                                                                                           */
+[10:14:58] [Server thread/WARN] [Sponge]: /* Since the event can be modified during the event's listener,                                                                                              */
+[10:14:58] [Server thread/WARN] [Sponge]: /* there could be adverse side effects of the exception occurring                                                                                            */
+[10:14:58] [Server thread/WARN] [Sponge]: /* such that duplications or other game breaking issues could exist.                                                                                         */
+[10:14:58] [Server thread/WARN] [Sponge]: /*                                                                                                                                                           */
+[10:14:58] [Server thread/WARN] [Sponge]: /* Due to the nature of the exception, this is not likely an exception                                                                                       */
+[10:14:58] [Server thread/WARN] [Sponge]: /* that is covered by SpongeForge or Forge itself, and therefore should                                                                                      */
+[10:14:58] [Server thread/WARN] [Sponge]: /* be reported to the mod/plugin author first prior to reporting to                                                                                          */
+[10:14:58] [Server thread/WARN] [Sponge]: /* Sponge or Forge.                                                                                                                                          */
+[10:14:58] [Server thread/WARN] [Sponge]: /*                                                                                                                                                           */
+[10:14:58] [Server thread/WARN] [Sponge]: /* Owning Mod/Plugin: placeholderapi                                                                                                                         */
+[10:14:58] [Server thread/WARN] [Sponge]: /* Exception:                                                                                                                                                */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     ninja.leaping.configurate.objectmapp                                                                                                                  */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     ng.ObjectMappingException: No                                                                                                                         */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     zero-arg constructor is available                                                                                                                     */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     for class                                                                                                                                             */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     me.rojo8399.placeholderapi.impl.conf                                                                                                                  */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     gs.Messages$Message but is required                                                                                                                   */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     to construct new instances!                                                                                                                           */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     ninja.leaping.configurate.objectmapping.ObjectMapper.constructObject(ObjectMapper.java:342)                                                           */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     ninja.leaping.configurate.objectmapping.ObjectMapper.bindToNew(ObjectMapper.java:379)                                                                 */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     ninja.leaping.configurate.objectmapping.serialize.AnnotatedObjectSerializer.deserialize(AnnotatedObjectSerializer.java:34)                            */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     ninja.leaping.configurate.objectmapping.ObjectMapper$FieldData.deserializeFrom(ObjectMapper.java:140)                                                 */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     ninja.leaping.configurate.objectmapping.ObjectMapper$BoundInstance.populate(ObjectMapper.java:201)                                                    */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     ninja.leaping.configurate.objectmapping.serialize.AnnotatedObjectSerializer.deserialize(AnnotatedObjectSerializer.java:34)                            */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     ninja.leaping.configurate.objectmapping.ObjectMapper$FieldData.deserializeFrom(ObjectMapper.java:140)                                                 */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     ninja.leaping.configurate.objectmapping.ObjectMapper$BoundInstance.populate(ObjectMapper.java:201)                                                    */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     ninja.leaping.configurate.objectmapping.serialize.AnnotatedObjectSerializer.deserialize(AnnotatedObjectSerializer.java:34)                            */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     ninja.leaping.configurate.SimpleConfigurationNode.getValue(SimpleConfigurationNode.java:232)                                                          */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     ninja.leaping.configurate.ConfigurationNode.getValue(ConfigurationNode.java:595)                                                                      */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     me.rojo8399.placeholderapi.impl.PlaceholderAPIPlugin.onGamePreInitializationEvent(PlaceholderAPIPlugin.java:299)                                      */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.listener.GamePreInitializationEventListener_PlaceholderAPIPlugin_onGamePreInitializationEvent55.handle(Unknown Source) */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.RegisteredListener.handle(RegisteredListener.java:97)                                                                  */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:383)                                                                */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:458)                                                        */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:419)                                                                */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:255)                                                                                    */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.SpongeMod.onStateEvent(SpongeMod.java:361)                                                                                      */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)                                                                                           */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)                                                                                           */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)                                                                                       */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     java.lang.reflect.Method.invoke(Unknown Source)                                                                                                       */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)                                                                      */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)                                              */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)                                                                                       */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)                                                        */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)                                                                               */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)                                                         */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.EventBus.post(EventBus.java:217)                                                                                           */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)                                                         */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)                                                           */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)                                                                                           */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)                                                                                           */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)                                                                                       */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     java.lang.reflect.Method.invoke(Unknown Source)                                                                                                       */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)                                                                      */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)                                              */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)                                                                                       */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)                                                        */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)                                                                               */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)                                                         */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.EventBus.post(EventBus.java:217)                                                                                           */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.redirect$zza000$forgeImpl$PostEvent(LoadController.java:568)                                             */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)                                                          */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)                                                                               */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:99)                                                           */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:333)                                                               */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:125)                                                                 */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)                                                                                    */
+[10:14:58] [Server thread/WARN] [Sponge]: /*     java.lang.Thread.run(Unknown Source)                                                                                                                  */
+[10:14:58] [Server thread/WARN] [Sponge]: /*************************************************************************************************************************************************************/
+[10:14:58] [Server thread/INFO] [economylite]: EconomyLite 2.15.1 is initializing!
+[10:14:58] [Server thread/INFO] [economylite]: Using currency: Coin
+[10:14:58] [Server thread/INFO] [economylite]: The SQL module is disabled!
+[10:14:58] [Server thread/INFO] [economylite]: Interest rate set to 1.0!
+[10:14:58] [Server thread/INFO] [economylite]: Maximum loan balance set to 10000.0!
+[10:14:58] [Server thread/INFO] [economylite]: Loaded the Loan module!
+[10:14:58] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-2 - Starting...
+[10:14:58] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-2 - Start completed.
+[10:14:59] [Server thread/INFO] [[1;34mV[m[0;35mT[m]: [0;33mPlugin Initializing...[m
+[10:14:59] [Server thread/INFO] [Pixelmon Broadcasts]: 
+[10:14:59] [Server thread/INFO] [Pixelmon Broadcasts]: =============== P I X E L M O N  B R O A D C A S T S ===============
+[10:14:59] [Server thread/INFO] [Pixelmon Broadcasts]: --> Loading and validating Pixelmon Broadcasts settings...
+[10:14:59] [Server thread/INFO] [Pixelmon Broadcasts]: --> Registering listeners with Pixelmon...
+[10:14:59] [Server thread/INFO] [Pixelmon Broadcasts]: --> Registering commands with Sponge...
+[10:14:59] [Server thread/INFO] [Pixelmon Broadcasts]:     Registered main command as /pixelmonbroadcasts, alias /pbroadcasts
+[10:14:59] [Server thread/INFO] [Pixelmon Broadcasts]: --> Pre-init completed. All systems nominal.
+[10:14:59] [Server thread/INFO] [Pixelmon Broadcasts]: ====================================================================
+[10:14:59] [Server thread/INFO] [Pixelmon Broadcasts]: 
+[10:14:59] [Server thread/INFO] [mmcreboot]: 
+bStats metrics is present in 5 plugins on this server.
+Presently, none of them are allowed to send data.
+Presently, the following 5 plugins are not allowed to send data:
+[MMCReboot, EconomyLite, Holograms, PlaceholderAPI, TabManager]
+To change the enabled/disabled state of any bStats use in a plugin, visit the Sponge config!
+[10:14:59] [Server thread/INFO] [aurionvotelistener]: AurionVoteListener loading...
+[10:15:00] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-3 - Starting...
+[10:15:00] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-3 - Start completed.
+[10:15:00] [Server thread/INFO] [tabmanager]: [TabManager 2.1.3-S7.0-MC1.12.2] is beginning setup.
+[10:15:00] [Server thread/INFO] [tabmanager]: [TabManager 2.1.3-S7.0-MC1.12.2] uses bStats, not for any nefarious reasons, just because the author (Proxying) is nosey.
+[10:15:00] [Server thread/INFO] [tabmanager]: [TabManager 2.1.3-S7.0-MC1.12.2] Feel free to disable this in the bStats config, but I'd appreciate it if you didn't.
+[10:15:01] [Server thread/INFO] [tabmanager]: [TabManager 2.1.3-S7.0-MC1.12.2] has finished setup.
+[10:15:01] [Server thread/WARN] [Sponge]: holograms: It is no longer required to include the plugin id when specifying a Key id through Key.Builder#id. This is deprecated and may be removed later. The plugin id will be retrieved from the current PluginContainer in the cause stack. Key: holograms:is-hologram
+[10:15:01] [Server thread/INFO] [catclearlag]: Setting up config...
+[10:15:01] [Server thread/INFO] [griefdefender]: Loading libraries...
+[10:15:04] [Server thread/INFO] [griefdefender]: GriefDefender boot start.
+[10:15:04] [Server thread/INFO] [griefdefender]: Finished loading configuration.
+[10:15:04] [Server thread/INFO] [griefdefender]: Registering GriefDefender API...
+[10:15:05] [Server thread/INFO] [Pixelmon]: Loading Pixelmon version 8.1.2
+[10:15:06] [Server thread/INFO] [Pixelmon]: Checking for migrations..
+[10:15:06] [Server thread/INFO] [Pixelmon]: Loading Advancements
+[10:15:10] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Utilities:loadDefaultCooldowns:106]: 2120447d-bb7a-49f3-83a0-aad8d4f2b7c5
+[10:15:10] [Server thread/INFO] [STDOUT]: [com.wondertrademod.wondertrade.Wondertrade:preInit:53]: [Wondertrade] Successfully loaded configuration File.
+[10:15:10] [Server thread/INFO] [FML]: Applying holder lookups
+[10:15:10] [Server thread/INFO] [FML]: Holder lookups applied
+[10:15:11] [Server thread/INFO] [Pixelmon]: Loading TM/HMs.
+[10:15:11] [Server thread/INFO] [FML]: Applying holder lookups
+[10:15:11] [Server thread/INFO] [FML]: Holder lookups applied
+[10:15:11] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `sponge` for name `human`, expected `spongeforge`. This could be a intended override, but in most cases indicates a broken mod.
+[10:15:11] [Server thread/INFO] [FML]: Applying holder lookups
+[10:15:11] [Server thread/INFO] [FML]: Holder lookups applied
+[10:15:11] [Server thread/INFO] [FML]: Applying holder lookups
+[10:15:11] [Server thread/INFO] [FML]: Holder lookups applied
+[10:15:11] [Server thread/INFO] [FML]: Injecting itemstacks
+[10:15:11] [Server thread/INFO] [FML]: Itemstack injection complete
+[10:15:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[10:15:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[10:15:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[10:15:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:41864
+[10:15:11] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[10:15:12] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:15:12] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[10:15:12] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:15:12] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:15:12] [Server thread/INFO] [FML]: Applying holder lookups
+[10:15:12] [Server thread/INFO] [FML]: Holder lookups applied
+[10:15:12] [Server thread/INFO] [nucleus]: Registered placeholder parsers.
+[10:15:12] [Server thread/INFO] [activetime]: +=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=+
+[10:15:12] [Server thread/INFO] [activetime]: |     ActiveTime -- Version 1.4.3     |
+[10:15:12] [Server thread/INFO] [activetime]: |      Developed By: Simon_Flash      |
+[10:15:12] [Server thread/INFO] [activetime]: +=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=+
+[10:15:13] [Server thread/INFO] [holograms]: Holograms loaded: 3.1.5
+[10:15:13] [Server thread/INFO] [catclearlag]: Starting plugin...
+[10:15:13] [Server thread/INFO] [catclearlag]: Registering commands...
+[10:15:13] [Server thread/INFO] [EnjinMinecraftPlugin]: Log4j 2 handler detected: com.enjin.common.compatibility.CurrentLog4j2Handler
+[10:15:13] [Server thread/WARN] [EnjinMinecraftPlugin]: Could not initialize file appender...
+[10:15:13] [Server thread/INFO] [EnjinMinecraftPlugin]: Initializing EMP Commands
+[10:15:13] [Server thread/INFO] [EnjinMinecraftPlugin]: Initializing EMP Managers
+[10:15:13] [Server thread/INFO] [EnjinMinecraftPlugin]: NuVotifier detected, listening for votes.
+[10:15:14] [Server thread/INFO] [EnjinMinecraftPlugin]: Initializing EMP Listeners
+[10:15:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [xP//] PixelHunt - Loaded v1.1.3!
+[10:15:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [xP//] By Xenoyia with help from happyzlife, FrostEffects and XpanD!
+[10:15:14] [Server thread/ERROR] [PixelGenocide]: There was a problem while loading the configuration.
+java.lang.NullPointerException: null
+	at ninja.leaping.configurate.SimpleConfigurationNode.getList(SimpleConfigurationNode.java:207) ~[spongeforge-1.12.2-2838-7.3.0.jar:1.12.2-2838-7.3.0]
+	at com.happyzleaf.pixelgenocide.condition.Conditions.load(Conditions.java:36) ~[Conditions.class:?]
+	at com.happyzleaf.pixelgenocide.Config.loadConfig(Config.java:96) [Config.class:?]
+	at com.happyzleaf.pixelgenocide.Config.init(Config.java:68) [Config.class:?]
+	at com.happyzleaf.pixelgenocide.PixelGenocide.init(PixelGenocide.java:51) [PixelGenocide.class:?]
+	at org.spongepowered.common.event.listener.GameInitializationEventListener_PixelGenocide_init74.handle(Unknown Source) [?:?]
+	at org.spongepowered.common.event.RegisteredListener.handle(RegisteredListener.java:97) [RegisteredListener.class:1.12.2-2838-7.3.0]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:383) [SpongeModEventManager.class:1.12.2-2838-7.3.0]
+	at org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:458) [SpongeModEventManager.class:1.12.2-2838-7.3.0]
+	at org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:419) [SpongeModEventManager.class:1.12.2-2838-7.3.0]
+	at org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:255) [SpongeImpl.class:1.12.2-2838-7.3.0]
+	at org.spongepowered.mod.SpongeMod.onStateEvent(SpongeMod.java:361) [SpongeMod.class:1.12.2-2838-7.3.0]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_261]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197) [LoadController.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_261]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_261]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_261]
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116) [minecraft_server.1.12.2.jar:?]
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217) [minecraft_server.1.12.2.jar:?]
+	at net.minecraftforge.fml.common.LoadController.redirect$zza000$forgeImpl$PostEvent(LoadController.java:568) [LoadController.class:?]
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136) [LoadController.class:?]
+	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749) [Loader.class:?]
+	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108) [FMLServerHandler.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338) [FMLCommonHandler.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261]
+[10:15:14] [Server thread/INFO] [PixelGenocide]: PixelGenocide by happyzleaf loaded! (https://happyzleaf.com/)
+[10:15:14] [Server thread/INFO] [[1;34mV[m[0;35mT[m]: [0;33mLoading file: D:\Servers\server 7\.\config\virtualtool\config.json[m
+[10:15:14] [Server thread/INFO] [[1;34mV[m[0;35mT[m]: [0;33mPlugin Initialized successfully![m
+[10:15:14] [Server thread/INFO] [simplecommands]: Successfully enabled SimpleCommands v1.0.1
+[10:15:14] [Server thread/INFO] [nucleus]: Nucleus is now entering the post-init phase.
+[10:15:15] [Server thread/INFO] [Pixelmon]: Registering shop items.
+[10:15:15] [Server thread/INFO] [Pixelmon]: Registering NPCs.
+[10:15:16] [Server thread/INFO] [Pixelmon]: Registered NPC trades.
+[10:15:16] [Server thread/INFO] [Pixelmon]: Registering structures.
+[10:15:16] [Server thread/INFO] [Pixelmon]: Registering all drops.
+[10:15:17] [Server thread/INFO] [Pixelmon]: Registering battle rules.
+[10:15:17] [Server thread/ERROR] [Pixelmon]: Error occurred when reading tier file: unrestricted.json.
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: java.lang.IllegalStateException: Not a JSON Object: null
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:90)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTier(RulesRegistry.java:186)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTier(RulesRegistry.java:162)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTiers(RulesRegistry.java:89)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerRules(RulesRegistry.java:65)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.CommonProxy.init(CommonProxy.java:123)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.Pixelmon.init(Pixelmon.java:199)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.redirect$zza000$forgeImpl$PostEvent(LoadController.java:568)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.Thread.run(Unknown Source)
+[10:15:17] [Server thread/INFO] [Pixelmon]: Loading internal tier file instead of external tier file.
+[10:15:17] [Server thread/ERROR] [Pixelmon]: Error occurred when reading tier file: ou.json.
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: java.lang.IllegalStateException: Not a JSON Object: null
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:90)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTier(RulesRegistry.java:186)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTier(RulesRegistry.java:162)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTiers(RulesRegistry.java:89)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerRules(RulesRegistry.java:65)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.CommonProxy.init(CommonProxy.java:123)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.Pixelmon.init(Pixelmon.java:199)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.redirect$zza000$forgeImpl$PostEvent(LoadController.java:568)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.Thread.run(Unknown Source)
+[10:15:17] [Server thread/INFO] [Pixelmon]: Loading internal tier file instead of external tier file.
+[10:15:17] [Server thread/ERROR] [Pixelmon]: Error occurred when reading tier file: uu.json.
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: java.lang.IllegalStateException: Not a JSON Object: null
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:90)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTier(RulesRegistry.java:186)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTier(RulesRegistry.java:162)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTiers(RulesRegistry.java:89)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerRules(RulesRegistry.java:65)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.CommonProxy.init(CommonProxy.java:123)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.Pixelmon.init(Pixelmon.java:199)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.redirect$zza000$forgeImpl$PostEvent(LoadController.java:568)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.Thread.run(Unknown Source)
+[10:15:17] [Server thread/INFO] [Pixelmon]: Loading internal tier file instead of external tier file.
+[10:15:17] [Server thread/ERROR] [Pixelmon]: Error occurred when reading tier file: ru.json.
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: java.lang.IllegalStateException: Not a JSON Object: null
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:90)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTier(RulesRegistry.java:186)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTier(RulesRegistry.java:162)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTiers(RulesRegistry.java:89)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerRules(RulesRegistry.java:65)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.CommonProxy.init(CommonProxy.java:123)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.Pixelmon.init(Pixelmon.java:199)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.redirect$zza000$forgeImpl$PostEvent(LoadController.java:568)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.Thread.run(Unknown Source)
+[10:15:17] [Server thread/INFO] [Pixelmon]: Loading internal tier file instead of external tier file.
+[10:15:17] [Server thread/ERROR] [Pixelmon]: Error occurred when reading tier file: nu.json.
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: java.lang.IllegalStateException: Not a JSON Object: null
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:90)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTier(RulesRegistry.java:186)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTier(RulesRegistry.java:162)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTiers(RulesRegistry.java:89)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerRules(RulesRegistry.java:65)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.CommonProxy.init(CommonProxy.java:123)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.Pixelmon.init(Pixelmon.java:199)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.redirect$zza000$forgeImpl$PostEvent(LoadController.java:568)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.Thread.run(Unknown Source)
+[10:15:17] [Server thread/INFO] [Pixelmon]: Loading internal tier file instead of external tier file.
+[10:15:17] [Server thread/ERROR] [Pixelmon]: Error occurred when reading tier file: battlespot.json.
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: java.lang.IllegalStateException: Not a JSON Object: null
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.gson.JsonElement.getAsJsonObject(JsonElement.java:90)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTier(RulesRegistry.java:186)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTier(RulesRegistry.java:150)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerTiers(RulesRegistry.java:104)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry.registerRules(RulesRegistry.java:65)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.CommonProxy.init(CommonProxy.java:123)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.pixelmonmod.pixelmon.Pixelmon.init(Pixelmon.java:199)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.GeneratedMethodAccessor13.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.reflect.Method.invoke(Unknown Source)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.redirect$zza000$forgeImpl$PostEvent(LoadController.java:568)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.Loader.initializeMods(Loader.java:749)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.server.FMLServerHandler.finishServerLoading(FMLServerHandler.java:108)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraftforge.fml.common.FMLCommonHandler.onServerStarted(FMLCommonHandler.java:338)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486)
+[10:15:17] [Server thread/INFO] [STDERR]: [com.pixelmonmod.pixelmon.battles.rules.clauses.tiers.RulesRegistry:printError:138]: 	at java.lang.Thread.run(Unknown Source)
+[10:15:17] [Server thread/INFO] [Pixelmon]: Registering Pokémon stats.
+[10:15:18] [Server thread/INFO] [Pixelmon]: Registering quests.
+[10:15:19] [Server thread/INFO] [Pixelmon]: Loaded 34 Quests.
+[10:15:19] [Server thread/INFO] [FML]: Injecting itemstacks
+[10:15:19] [Server thread/INFO] [FML]: Itemstack injection complete
+[10:15:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[10:15:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ======== E V E N  M O R E  P I X E L M O N  C O M M A N D S ========
+[10:15:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: --> Checking whether an economy plugin is present...
+[10:15:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: --> An economy plugin was detected. Enabling integration!
+[10:15:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: --> We are good to go.
+[10:15:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ====================================================================
+[10:15:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: 
+[10:15:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [PixelHunt] Economy loaded!
+[10:15:19] [Server thread/INFO] [adamantineshield]: Registering plugin commands
+[10:15:19] [Server thread/INFO] [pokebuilder]: PokeBuilder has loaded successfully
+[10:15:19] [Server thread/INFO] [Pixelmon]: Registering spawn sets.
+[10:15:19] [Server thread/ERROR] [Pixelmon]: PokemonSpec tried to create a Pokémon with a bad name: Duraludon
+[10:15:19] [Server thread/WARN] [Pixelmon]: Bad pokemon name: Duraludon in Duraludon.set.json
+[10:15:19] [Server thread/ERROR] [Pixelmon]: PokemonSpec tried to create a Pokémon with a bad name: Cufant
+[10:15:19] [Server thread/WARN] [Pixelmon]: Bad pokemon name: Cufant in Cufant.set.json
+[10:15:19] [Server thread/ERROR] [Pixelmon]: PokemonSpec tried to create a Pokémon with a bad name: Copperajah
+[10:15:19] [Server thread/WARN] [Pixelmon]: Bad pokemon name: Copperajah in Copperajah.set.json
+[10:15:19] [Server thread/ERROR] [Pixelmon]: PokemonSpec tried to create a Pokémon with a bad name: Zarude
+[10:15:19] [Server thread/WARN] [Pixelmon]: Bad pokemon name: Zarude in Zarude.set.json
+[10:15:19] [Server thread/ERROR] [Pixelmon]: PokemonSpec tried to create a Pokémon with a bad name: Zamazenta
+[10:15:19] [Server thread/WARN] [Pixelmon]: Bad pokemon name: Zamazenta in Zamazenta.set.json
+[10:15:19] [Server thread/ERROR] [Pixelmon]: PokemonSpec tried to create a Pokémon with a bad name: Zacian
+[10:15:19] [Server thread/WARN] [Pixelmon]: Bad pokemon name: Zacian in Zacian.set.json
+[10:15:19] [Server thread/ERROR] [Pixelmon]: PokemonSpec tried to create a Pokémon with a bad name: Kubfu
+[10:15:19] [Server thread/WARN] [Pixelmon]: Bad pokemon name: Kubfu in Kubfu.set.json
+[10:15:19] [Server thread/ERROR] [Pixelmon]: PokemonSpec tried to create a Pokémon with a bad name: Eternatus
+[10:15:19] [Server thread/WARN] [Pixelmon]: Bad pokemon name: Eternatus in Eternatus.set.json
+[10:15:19] [Server thread/ERROR] [Pixelmon]: PokemonSpec tried to create a Pokémon with a bad name: Calyrex
+[10:15:19] [Server thread/WARN] [Pixelmon]: Bad pokemon name: Calyrex in Calyrex.set.json
+[10:15:19] [Server thread/ERROR] [Pixelmon]: PokemonSpec tried to create a Pokémon with a bad name: Duraludon
+[10:15:19] [Server thread/WARN] [Pixelmon]: Bad pokemon name: Duraludon in Duraludon Grass.set.json
+[10:15:19] [Server thread/ERROR] [Pixelmon]: PokemonSpec tried to create a Pokémon with a bad name: Cufant
+[10:15:19] [Server thread/ERROR] [Pixelmon]: PokemonSpec tried to create a Pokémon with a bad name: Copperajah
+[10:15:19] [Server thread/WARN] [Pixelmon]: Bad pokemon name: Cufant in Cufant Line Grass.set.json
+[10:15:19] [Server thread/WARN] [Pixelmon]: Bad pokemon name: Copperajah in Cufant Line Grass.set.json
+[10:15:22] [Server thread/INFO] [worldedit]: WorldEdit for Forge (version 6.1.10) is loaded
+[10:15:22] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 46 mods
+[10:15:22] [Server thread/INFO] [griefdefender]: Loading configuration...
+[10:15:24] [Server thread/INFO] [griefdefender]: GriefDefender economy integration enabled.
+[10:15:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[10:15:24] [Server thread/INFO] [Sponge]: Checking for worlds that need to be migrated...
+[10:15:25] [Server thread/INFO] [Sponge]: No worlds were found in need of migration.
+[10:15:25] [Server thread/WARN] [Sponge]: World [ultra] (72) is attempting to be registered as an existing dimension but it's dimension id has already been registered for folder [null]. This means the world has been copied outside of Sponge. This is not a supported configuration.
+[10:15:25] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[10:15:25] [Server thread/INFO] [FML]: Applying holder lookups
+[10:15:25] [Server thread/INFO] [FML]: Holder lookups applied
+[10:15:27] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 732 advancements
+[10:15:27] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 120 advancement trees
+[10:15:27] [Server thread/INFO] [griefdefender]: [world] 0 total claims loaded.
+[10:15:27] [Server thread/INFO] [griefdefender]: Loading sponge schematics for world world...
+[10:15:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for world world (minecraft:overworld/0)
+[10:15:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 0%
+[10:15:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 20%
+[10:15:53] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[10:15:53] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[10:15:53] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[10:15:53] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[10:15:53] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[10:15:53] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[10:15:53] [Server thread/WARN] [Pixelmon]: Ignore the above warning messages ^ This is intended and working fine.
+[10:15:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 42%
+[10:15:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 50%
+[10:15:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 79%
+[10:15:57] [Server thread/INFO] [Sponge]: Loading world [world] (minecraft:overworld/0)
+[10:15:59] [Server thread/WARN] [Sponge]: World [.\world\DIM-1] (minecraft:nether/-1) is disabled. World will not be loaded...
+[10:15:59] [Server thread/WARN] [Sponge]: World [.\world\DIM1] (minecraft:the_end/1) is disabled. World will not be loaded...
+[10:16:00] [Server thread/WARN] [Sponge]: World [build] (minecraft:overworld/3) is set to not load on startup. To load it later, enable [load-on-startup] in config or use a plugin.
+[10:16:32] [HikariPool-3 housekeeper/WARN] [com.zaxxer.hikari.pool.HikariPool]: HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1m1s773ms323µs).
+[10:16:32] [HikariPool-2 housekeeper/WARN] [com.zaxxer.hikari.pool.HikariPool]: HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m2s9ms698µs600ns).
+[10:16:34] [Netty Server IO #1/INFO] [FML]: Disconnecting Player: Server is still starting! Please wait before reconnecting.
+[10:16:34] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 732 advancements
+[10:16:34] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 120 advancement trees
+[10:16:34] [Server thread/INFO] [griefdefender]: [map] 0 total claims loaded.
+[10:16:34] [Server thread/INFO] [griefdefender]: Loading sponge schematics for world map...
+[10:16:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for world map (minecraft:overworld/4)
+[10:16:35] [Server thread/INFO] [Sponge]: Loading world [map] (minecraft:overworld/4)
+[10:16:36] [Server thread/WARN] [Sponge]: World [.\world\ultra] (pixelmon:ultra_space/72) is disabled. World will not be loaded...
+[10:16:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (74.048s)! For help, type "help" or "?"
+[10:16:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting GS4 status listener
+[10:16:36] [Query Listener #1/INFO] [net.minecraft.server.MinecraftServer]: Query running on 0.0.0.0:41864
+[10:16:36] [Server thread/INFO] [nucleus]: Nucleus is loading data files.
+[10:16:36] [Server thread/INFO] [nucleus]: Nucleus language set to "default"
+[10:16:36] [Server thread/INFO] [[1;34mV[m[0;35mT[m]: [0;33mLoading...[m
+[10:16:36] [Server thread/INFO] [[1;34mV[m[0;35mT[m]: [0;33mLoaded![m
+[10:16:36] [Server thread/INFO] [nucleus]: Nucleus is performing final tasks before server startup completes.
+[10:16:36] [Server thread/INFO] [nucleus]: Nucleus has started.
+[10:16:48] [Server thread/INFO] [STDOUT]: [fr.flashback083.flashspec.FlashSpec:serverStart:206]: FlashSpec loaded!
+[10:16:49] [Server thread/INFO] [nucleus]: Nucleus language set to "default"
+[10:16:49] [pool-3-thread-41/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon] Want a starter house or rent a plot from a server town, send a staff member a message for more information.
+[10:16:49] [pool-3-thread-107/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon] Join Our Discord https://discord.gg/edsGyD5
+[10:16:49] [pool-3-thread-111/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon] Apply for staff at  https://thehighnoon.enjin.com/forum/m/51998774/viewforum/9632196
+[10:16:50] [Server thread/INFO] [aurionvotelistener]: AurionsVoteListener Enabled
+[10:16:50] [Server thread/INFO] [griefdefender]: Loaded successfully.
+[10:16:50] [pool-3-thread-83/ERROR] [magibridge]: Error loading MagiBridge: 
+java.lang.RuntimeException: ERROR STARTING THE PLUGIN: 
+THE TOKEN IN THE CONFIG IS INVALID! 
+You probably didn't set the token yet, edit your config!
+	at com.magitechserver.magibridge.MagiBridge.lambda$init$8(MagiBridge.java:189) ~[MagiBridge.class:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(Unknown Source) ~[?:1.8.0_261]
+	at org.spongepowered.api.scheduler.Task$Builder.lambda$execute$0(Task.java:139) ~[Task$Builder.class:1.12.2-2838-7.3.0]
+	at org.spongepowered.common.scheduler.SchedulerBase.lambda$startTask$0(SchedulerBase.java:197) ~[SchedulerBase.class:1.12.2-2838-7.3.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_261]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) [?:1.8.0_261]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) [?:1.8.0_261]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261]
+[10:16:51] [Server thread/INFO] [coloranvil]: ColorAnvil version 1.2.0 enabled!
+[10:16:51] [Server thread/INFO] [HuskyCrates]: Loading Crates...
+[10:16:53] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.virtual.views.SpinnerView$Config:<init>:187]: null
+[10:16:53] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.virtual.views.SpinnerView$Config:<init>:187]: null
+[10:16:53] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.virtual.views.SpinnerView$Config:<init>:187]: null
+[10:16:53] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.virtual.views.SpinnerView$Config:<init>:187]: 75
+[10:16:53] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.virtual.views.SpinnerView$Config:<init>:187]: null
+[10:16:53] [Server thread/INFO] [HuskyCrates]: Injection checks passed.
+[10:16:53] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-4 - Starting...
+[10:16:54] [Server thread/INFO] [com.zaxxer.hikari.HikariDataSource]: HikariPool-4 - Start completed.
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Begin Database Load...
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: vote
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded vote @ 290.0,64.0,17.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: Mythic
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded Mythic @ 298.0,64.0,22.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: Rare
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded Rare @ 293.0,64.0,17.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: Mythic
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded Mythic @ 293.0,64.0,45.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: Rare
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded Rare @ 275.0,64.0,45.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: Rare
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded Rare @ 298.0,64.0,40.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: Rare
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded Rare @ 270.0,64.0,22.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: vote
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded vote @ 298.0,64.0,37.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: vote
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded vote @ 270.0,64.0,25.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: Mythic
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded Mythic @ 275.0,64.0,17.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: Mythic
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded Mythic @ 270.0,64.0,40.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: vote
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded vote @ 278.0,64.0,45.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: Holiday
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded Holiday @ 298.0,64.0,25.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: Holiday
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded Holiday @ 290.0,64.0,45.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: Holiday
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded Holiday @ 278.0,64.0,17.0
+[10:16:54] [Server thread/INFO] [STDOUT]: [com.codehusky.huskycrates.crate.physical.PhysicalCrate:<init>:33]: Holiday
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Loaded Holiday @ 270.0,64.0,37.0
+[10:16:54] [Server thread/INFO] [HuskyCrates]: End Database Load.
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Crates has started successfully.
+[10:16:54] [Server thread/INFO] [HuskyCrates]: Running HuskyCrates v2.0.0RC1
+[10:16:54] [Server thread/INFO] [simplecommands]: Successfully enabled the plugin.
+[10:16:54] [Server thread/WARN] [Sponge]: /**************************************************************************************************************************/
+[10:16:54] [Server thread/WARN] [Sponge]: /*                                         Could not pass  FMLServerStartedEvent                                          */
+[10:16:54] [Server thread/WARN] [Sponge]: /**************************************************************************************************************************/
+[10:16:54] [Server thread/WARN] [Sponge]: /* Could not pass the event FMLServerStartedEvent to an Event Listener!                                                   */
+[10:16:54] [Server thread/WARN] [Sponge]: /*                                                                                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /* Since the event can be modified during the event's listener,                                                           */
+[10:16:54] [Server thread/WARN] [Sponge]: /* there could be adverse side effects of the exception occurring                                                         */
+[10:16:54] [Server thread/WARN] [Sponge]: /* such that duplications or other game breaking issues could exist.                                                      */
+[10:16:54] [Server thread/WARN] [Sponge]: /*                                                                                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /* Due to the nature of the exception, this is not likely an exception                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /* that is covered by SpongeForge or Forge itself, and therefore should                                                   */
+[10:16:54] [Server thread/WARN] [Sponge]: /* be reported to the mod/plugin author first prior to reporting to                                                       */
+[10:16:54] [Server thread/WARN] [Sponge]: /* Sponge or Forge.                                                                                                       */
+[10:16:54] [Server thread/WARN] [Sponge]: /*                                                                                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /* Owning Mod/Plugin: activetime                                                                                          */
+[10:16:54] [Server thread/WARN] [Sponge]: /* Exception:                                                                                                             */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     java.lang.NoClassDefFoundError:                                                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     io/github/nucleuspowered/nucleus/api                                                                               */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     exceptions/PluginAlreadyRegisteredEx                                                                               */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     eption                                                                                                             */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.mcsimonflash.sponge.activetime.ActiveTime.onStart(ActiveTime.java:65)                                          */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.listener.GameStartedServerEventListener_ActiveTime_onStart11.handle(Unknown Source) */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.RegisteredListener.handle(RegisteredListener.java:97)                               */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:383)                             */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:458)                     */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:419)                             */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:255)                                                 */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.SpongeMod.onStateEvent(SpongeMod.java:361)                                                   */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     java.lang.reflect.Method.invoke(Unknown Source)                                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)                                   */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)           */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)                     */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)                                            */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)                      */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.EventBus.post(EventBus.java:217)                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)                      */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     java.lang.reflect.Method.invoke(Unknown Source)                                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)                                   */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)           */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)                     */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)                                            */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)                      */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.EventBus.post(EventBus.java:217)                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.redirect$zza000$forgeImpl$PostEvent(LoadController.java:568)          */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)                       */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.Loader.serverStarted(Loader.java:804)                                                */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.FMLCommonHandler.handleServerStarted(FMLCommonHandler.java:302)                      */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraft.server.MinecraftServer.run(MinecraftServer.java:488)                                                 */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     java.lang.Thread.run(Unknown Source)                                                                               */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     java.lang.ClassNotFoundException:                                                                                  */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     io.github.nucleuspowered.nucleus.api                                                                               */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     exceptions.PluginAlreadyRegisteredEx                                                                               */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     eption                                                                                                             */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:101)                                */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     java.lang.ClassLoader.loadClass(Unknown Source)                                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     java.lang.ClassLoader.loadClass(Unknown Source)                                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.mcsimonflash.sponge.activetime.ActiveTime.onStart(ActiveTime.java:65)                                          */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.listener.GameStartedServerEventListener_ActiveTime_onStart11.handle(Unknown Source) */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.RegisteredListener.handle(RegisteredListener.java:97)                               */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:383)                             */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:458)                     */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:419)                             */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:255)                                                 */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.SpongeMod.onStateEvent(SpongeMod.java:361)                                                   */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     java.lang.reflect.Method.invoke(Unknown Source)                                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)                                   */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)           */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)                     */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)                                            */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)                      */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.EventBus.post(EventBus.java:217)                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)                      */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     java.lang.reflect.Method.invoke(Unknown Source)                                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)                                   */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)           */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)                                                    */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)                     */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)                                            */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)                      */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.EventBus.post(EventBus.java:217)                                                        */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.redirect$zza000$forgeImpl$PostEvent(LoadController.java:568)          */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)                       */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.Loader.serverStarted(Loader.java:804)                                                */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.FMLCommonHandler.handleServerStarted(FMLCommonHandler.java:302)                      */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     net.minecraft.server.MinecraftServer.run(MinecraftServer.java:488)                                                 */
+[10:16:54] [Server thread/WARN] [Sponge]: /*     java.lang.Thread.run(Unknown Source)                                                                               */
+[10:16:54] [Server thread/WARN] [Sponge]: /**************************************************************************************************************************/
+[10:16:54] [Server thread/INFO] [mmcreboot]: [MMCReboot] Using fixed restart scheduler
+[10:16:54] [Server thread/INFO] [mmcreboot]: [MMCReboot] warning scheduled for 359999400 seconds from now!
+[10:16:54] [Server thread/INFO] [mmcreboot]: [MMCReboot] warning scheduled for 359999700 seconds from now!
+[10:16:54] [Server thread/INFO] [mmcreboot]: [MMCReboot] warning scheduled for 359999760 seconds from now!
+[10:16:54] [Server thread/INFO] [mmcreboot]: [MMCReboot] warning scheduled for 359999820 seconds from now!
+[10:16:54] [Server thread/INFO] [mmcreboot]: [MMCReboot] warning scheduled for 359999880 seconds from now!
+[10:16:54] [Server thread/INFO] [mmcreboot]: [MMCReboot] warning scheduled for 359999940 seconds from now!
+[10:16:54] [Server thread/INFO] [mmcreboot]: [MMCReboot] warning scheduled for 359999970 seconds from now!
+[10:16:54] [Server thread/INFO] [mmcreboot]: [MMCReboot] RebootCMD scheduled for 360000000 seconds from now!
+[10:16:54] [Server thread/INFO] [mmcreboot]: MMCReboot Loaded
+[10:16:54] [Server thread/INFO] [tabmanager]: header found. Inserting into cache. Welcome To &6The High Noon &bNetwork&7!
+[10:16:54] [Server thread/INFO] [tabmanager]: footer found. Inserting into cache. &aHope You Enjoy Your Place At &bplay.thehighnoon.net
+[10:16:54] [Server thread/INFO] [tabmanager]: Checking for groups file and populating groups. Best of luck kids.
+[10:16:54] [Server thread/INFO] [tabmanager]: Group owner found. Inserting into cache.
+[10:16:54] [Server thread/INFO] [tabmanager]: Group admin found. Inserting into cache.
+[10:16:54] [Server thread/INFO] [tabmanager]: Group mod found. Inserting into cache.
+[10:16:54] [Server thread/INFO] [tabmanager]: Group gymleader found. Inserting into cache.
+[10:16:54] [Server thread/INFO] [tabmanager]: Group helper found. Inserting into cache.
+[10:16:54] [Server thread/INFO] [tabmanager]: Group extreme found. Inserting into cache.
+[10:16:54] [Server thread/INFO] [tabmanager]: Group hyper found. Inserting into cache.
+[10:16:54] [Server thread/INFO] [tabmanager]: Group super found. Inserting into cache.
+[10:16:54] [Server thread/INFO] [tabmanager]: Group expert found. Inserting into cache.
+[10:16:54] [Server thread/INFO] [tabmanager]: Group mvp found. Inserting into cache.
+[10:16:54] [Server thread/INFO] [tabmanager]: Group trainer found. Inserting into cache.
+[10:16:54] [Server thread/INFO] [tabmanager]: Checking for players file and populating players. Best of luck kids.
+[10:16:54] [Server thread/INFO] [tabmanager]: Player 069a79f4-44e9-4726-a5be-fca90e38aaf5 found. Inserting into cache.
+[10:16:55] [Server thread/INFO] [nuvotifier]: Loaded token for website: default
+[10:16:55] [Server thread/INFO] [nuvotifier]: Using NIO transport to accept votes.
+[10:16:56] [Server thread/INFO] [nuvotifier]: Method none selected for vote forwarding: Votes will not be received from a forwarder.
+[10:16:56] [Server thread/INFO] [Pixelmon Broadcasts]: =============== P I X E L M O N  B R O A D C A S T S ===============
+[10:16:56] [Server thread/INFO] [Pixelmon Broadcasts]: --> Pixelmon's "displayLegendaryGlobalMessage" setting is enabled.
+[10:16:56] [Server thread/INFO] [Pixelmon Broadcasts]:     Please disable this setting, as it conflicts with this mod!
+[10:16:56] [Server thread/INFO] [Pixelmon Broadcasts]: ====================================================================
+[10:16:56] [Votifier NIO boss/ERROR] [nuvotifier]: Votifier was not able to bind to /0.0.0.0:25577
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method) ~[?:1.8.0_261]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_261]
+	at sun.nio.ch.Net.bind(Unknown Source) ~[?:1.8.0_261]
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source) ~[?:1.8.0_261]
+	at com.vexsoftware.votifier.io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134) ~[NioServerSocketChannel.class:?]
+	at com.vexsoftware.votifier.io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550) [AbstractChannel$AbstractUnsafe.class:?]
+	at com.vexsoftware.votifier.io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334) [DefaultChannelPipeline$HeadContext.class:?]
+	at com.vexsoftware.votifier.io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506) [AbstractChannelHandlerContext.class:?]
+	at com.vexsoftware.votifier.io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491) [AbstractChannelHandlerContext.class:?]
+	at com.vexsoftware.votifier.io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973) [DefaultChannelPipeline.class:?]
+	at com.vexsoftware.votifier.io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248) [AbstractChannel.class:?]
+	at com.vexsoftware.votifier.io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356) [AbstractBootstrap$2.class:?]
+	at com.vexsoftware.votifier.io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164) [AbstractEventExecutor.class:?]
+	at com.vexsoftware.votifier.io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472) [SingleThreadEventExecutor.class:?]
+	at com.vexsoftware.votifier.io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500) [NioEventLoop.class:?]
+	at com.vexsoftware.votifier.io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [SingleThreadEventExecutor$4.class:?]
+	at com.vexsoftware.votifier.io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [ThreadExecutorMap$2.class:?]
+	at com.vexsoftware.votifier.io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [FastThreadLocalRunnable.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_261]
+[10:16:56] [Server thread/WARN] [Sponge]: /***********************************************************************************************************************************/
+[10:16:56] [Server thread/WARN] [Sponge]: /*                                              Could not pass  FMLServerStartedEvent                                              */
+[10:16:56] [Server thread/WARN] [Sponge]: /***********************************************************************************************************************************/
+[10:16:56] [Server thread/WARN] [Sponge]: /* Could not pass the event FMLServerStartedEvent to an Event Listener!                                                            */
+[10:16:56] [Server thread/WARN] [Sponge]: /*                                                                                                                                 */
+[10:16:56] [Server thread/WARN] [Sponge]: /* Since the event can be modified during the event's listener,                                                                    */
+[10:16:56] [Server thread/WARN] [Sponge]: /* there could be adverse side effects of the exception occurring                                                                  */
+[10:16:56] [Server thread/WARN] [Sponge]: /* such that duplications or other game breaking issues could exist.                                                               */
+[10:16:56] [Server thread/WARN] [Sponge]: /*                                                                                                                                 */
+[10:16:56] [Server thread/WARN] [Sponge]: /* Due to the nature of the exception, this is not likely an exception                                                             */
+[10:16:56] [Server thread/WARN] [Sponge]: /* that is covered by SpongeForge or Forge itself, and therefore should                                                            */
+[10:16:56] [Server thread/WARN] [Sponge]: /* be reported to the mod/plugin author first prior to reporting to                                                                */
+[10:16:56] [Server thread/WARN] [Sponge]: /* Sponge or Forge.                                                                                                                */
+[10:16:56] [Server thread/WARN] [Sponge]: /*                                                                                                                                 */
+[10:16:56] [Server thread/WARN] [Sponge]: /* Owning Mod/Plugin: pixelgenocide                                                                                                */
+[10:16:56] [Server thread/WARN] [Sponge]: /* Exception:                                                                                                                      */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     org.spongepowered.api.service.Provis                                                                                        */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     oningException: No provider is                                                                                              */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     registered for the service                                                                                                  */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     'me.rojo8399.placeholderapi.Placehol                                                                                        */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     erService'                                                                                                                  */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     org.spongepowered.api.service.SimpleServiceManager.provideUnchecked(SimpleServiceManager.java:110)                          */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     com.happyzleaf.pixelgenocide.placeholder.PlaceholderAPI.<init>(PlaceholderAPI.java:22)                                      */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     com.happyzleaf.pixelgenocide.placeholder.PlaceholderBridge.init(PlaceholderBridge.java:12)                                  */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     com.happyzleaf.pixelgenocide.PixelGenocide.onServerStart(PixelGenocide.java:101)                                            */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.listener.GameStartedServerEventListener_PixelGenocide_onServerStart76.handle(Unknown Source) */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.event.RegisteredListener.handle(RegisteredListener.java:97)                                        */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:383)                                      */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.extendedPost(SpongeModEventManager.java:458)                              */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.event.SpongeModEventManager.post(SpongeModEventManager.java:419)                                      */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     org.spongepowered.common.SpongeImpl.postEvent(SpongeImpl.java:255)                                                          */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     org.spongepowered.mod.SpongeMod.onStateEvent(SpongeMod.java:361)                                                            */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)                                                                 */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)                                                                 */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)                                                             */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     java.lang.reflect.Method.invoke(Unknown Source)                                                                             */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)                                            */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)                    */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)                                                             */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)                              */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)                                                     */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)                               */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.EventBus.post(EventBus.java:217)                                                                 */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)                               */
+[10:16:56] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)                                 */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)                                                                 */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)                                                                 */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)                                                             */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     java.lang.reflect.Method.invoke(Unknown Source)                                                                             */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)                                            */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)                    */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)                                                             */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)                              */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)                                                     */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)                               */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     com.google.common.eventbus.EventBus.post(EventBus.java:217)                                                                 */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.redirect$zza000$forgeImpl$PostEvent(LoadController.java:568)                   */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)                                */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.Loader.serverStarted(Loader.java:804)                                                         */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     net.minecraftforge.fml.common.FMLCommonHandler.handleServerStarted(FMLCommonHandler.java:302)                               */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     net.minecraft.server.MinecraftServer.run(MinecraftServer.java:488)                                                          */
+[10:16:57] [Server thread/WARN] [Sponge]: /*     java.lang.Thread.run(Unknown Source)                                                                                        */
+[10:16:57] [Server thread/WARN] [Sponge]: /***********************************************************************************************************************************/
+[10:16:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [AGP-R] This server is running AGP Responged created by AnDwHaT5! Use /GymList to see what Gyms the server has to offer!
+[10:16:59] [Server thread/INFO] [nucleus]: Server ran the command: / 
+[10:16:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Unknown command. Try /help for a list of commands
+[10:16:59] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2361ms behind, skipping 47 tick(s)
+[10:17:01] [Netty Server IO #3/INFO] [FML]: Client protocol version 2
+[10:17:01] [Netty Server IO #3/INFO] [FML]: Client attempting to join with 11 mods : minecraft@1.12.2,FML@8.0.99.99,schematica@1.8.0.169,forge@14.23.5.2854,worldedit@6.1.10-SNAPSHOT,torohealthmod@1.12.2-11,mcp@9.42,lunatriuscore@1.2.0.42,journeymap@1.12.2-5.7.1,jei@4.15.0.297,pixelmon@8.1.2
+[10:17:01] [Netty Server IO #3/INFO] [FML]: Attempting connection with missing mods [spongeapi, sponge, spongeforge, activetime, adamantineshield, agp, aurionvotelistener, autobroadcaster, catclearlag, coloranvil, pixelmoneconomybridge, economylite, enjin-minecraft-plugin, evenmorepixelmoncommands, flashplus, flashspec, griefdefender, holograms, huskycrates, huskyui, keepinventorysponge, legendaryplus, luckperms, magibridge, mmcreboot, nucleus, nuvotifier, pixelextras, pixelgenocide, pixelhunt, pixelmon-wiki-gui, pixelmonbroadcasts, placeholderapi, pokebuilder, simplecommands, spark, tabmanager, trainercommands, virtualtool, wondertrade] at CLIENT
+[10:17:03] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[10:17:04] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: jeremykalar [/127.0.0.1:50361] logged in with entity id [42] in world (minecraft:overworld/0) at (-9559.295597241227, 92.53292827534491, -19913.48337966837).
+[10:17:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [AGP-R] Gym Leader jeremykalar has joined the server!
+[10:17:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [AGP-R] The 7-GrassBug and 8-IceDragon gyms have opened!
+[10:17:08] [Server thread/WARN] [nucleus]: The player jeremykalar has got either the nucleus wildcard or the * wildcard permission. This may cause unintended side effects.
+[10:17:16] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /freeze 
+[10:17:20] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /freeze 
+[10:17:30] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2015ms behind, skipping 40 tick(s)
+[10:17:31] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /pixelmon:freeze 
+[10:17:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [jeremykalar: Pokémon are frozen in place!]
+[10:17:37] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /toggle 
+[10:17:38] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /toggle 
+[10:17:41] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /pt list
+[10:17:43] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /pt list
 [10:17:47] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /pt say test
 [10:17:51] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /pt list
 [10:23:46] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3895ms behind, skipping 77 tick(s)
@@ -20,3 +1065,50 @@
 [10:28:11] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /lp verbose on jeremykalar
 [10:28:21] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /pt pokespawn mareep
 [10:28:29] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /lp verbose off
+[10:30:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [AGP-R] This server is running AGP Responged created by AnDwHaT5! Use /GymList to see what Gyms the server has to offer!
+[10:31:49] [pool-3-thread-145/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon] Want a starter house or rent a plot from a server town, send a staff member a message for more information.
+[10:34:13] [pool-3-thread-149/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]Ground items will be cleared in 60 seconds.
+[10:34:43] [pool-3-thread-148/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]Ground items will be cleared in 30 seconds.
+[10:35:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]0 items have been cleared.
+[10:36:12] [Server thread/INFO] [Pixelmon Broadcasts]: 264A legendary Xerneas has spawned in world "world", at X:-9527 Y:70 Z:-19907
+[10:36:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Pixelmon] Xerneas has spawned in a Roofed Forest biome!
+[10:36:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Spawned Xerneas at: world x:-9527, y:70, z:-19907
+[10:37:23] [Server thread/INFO] [Pixelmon Broadcasts]: 264A boss Pidgeot has spawned in world "world", at X:-9585 Y:88 Z:-19894
+[10:41:21] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2877ms behind, skipping 57 tick(s)
+[10:44:13] [pool-3-thread-169/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]Ground items will be cleared in 60 seconds.
+[10:44:43] [pool-3-thread-163/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]Ground items will be cleared in 30 seconds.
+[10:44:54] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2501ms behind, skipping 50 tick(s)
+[10:45:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [AGP-R] This server is running AGP Responged created by AnDwHaT5! Use /GymList to see what Gyms the server has to offer!
+[10:45:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]0 items have been cleared.
+[10:46:49] [pool-3-thread-172/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon] Apply for staff at  https://thehighnoon.enjin.com/forum/m/51998774/viewforum/9632196
+[10:46:49] [pool-3-thread-172/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon] Want a starter house or rent a plot from a server town, send a staff member a message for more information.
+[10:54:13] [pool-3-thread-182/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]Ground items will be cleared in 60 seconds.
+[10:54:43] [pool-3-thread-188/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]Ground items will be cleared in 30 seconds.
+[10:55:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]0 items have been cleared.
+[10:59:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [AGP-R] This server is running AGP Responged created by AnDwHaT5! Use /GymList to see what Gyms the server has to offer!
+[11:01:49] [pool-3-thread-198/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon] Join Our Discord https://discord.gg/edsGyD5
+[11:01:49] [pool-3-thread-198/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon] Want a starter house or rent a plot from a server town, send a staff member a message for more information.
+[11:02:38] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 3911ms behind, skipping 78 tick(s)
+[11:04:13] [pool-3-thread-195/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]Ground items will be cleared in 60 seconds.
+[11:04:43] [pool-3-thread-201/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]Ground items will be cleared in 30 seconds.
+[11:05:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]0 items have been cleared.
+[11:13:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [AGP-R] This server is running AGP Responged created by AnDwHaT5! Use /GymList to see what Gyms the server has to offer!
+[11:14:13] [pool-3-thread-221/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]Ground items will be cleared in 60 seconds.
+[11:14:43] [pool-3-thread-224/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]Ground items will be cleared in 30 seconds.
+[11:15:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]0 items have been cleared.
+[11:15:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Hunt The hunt for Chimecho has ended!
+[11:15:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Hunt New Pokémon to hunt is Eldegoss!
+[11:16:49] [pool-3-thread-232/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon] Apply for staff at  https://thehighnoon.enjin.com/forum/m/51998774/viewforum/9632196
+[11:16:49] [pool-3-thread-232/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon] Want a starter house or rent a plot from a server town, send a staff member a message for more information.
+[11:16:59] [Timer-4/INFO] [net.minecraft.server.dedicated.DedicatedServer]: This server is running Wondertrade by GhostWolf!
+[11:16:59] [Timer-4/INFO] [net.minecraft.server.dedicated.DedicatedServer]: For a tutorial see: https://www.youtube.com/ghostwolfgames
+[11:16:59] [Timer-4/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Current Wondertrade pool contains: 100 Pixelmon
+[11:16:59] [Timer-4/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Try your luck at getting it with /wondertrade
+[11:24:13] [pool-3-thread-237/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]Ground items will be cleared in 60 seconds.
+[11:24:43] [pool-3-thread-240/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]Ground items will be cleared in 30 seconds.
+[11:25:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheHighNoon]0 items have been cleared.
+[11:27:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [AGP-R] This server is running AGP Responged created by AnDwHaT5! Use /GymList to see what Gyms the server has to offer!
+[11:30:03] [Server thread/INFO] [nucleus]: jeremykalar ran the command: /pt 
+[11:30:59] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: jeremykalar lost connection: Disconnected
+[11:30:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [AGP-R] Gym Leader jeremykalar has left the server!
+[11:30:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [AGP-R] The 7-GrassBug and 8-IceDragon gyms have closed.
